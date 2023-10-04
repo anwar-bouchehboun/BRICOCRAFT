@@ -448,7 +448,7 @@ a:focus {
 }
 
 .professional_section {
-  background-color: #ffffff;
+  background-color:#e9ecef;
 }
 
 .professional_section .row {
@@ -728,7 +728,7 @@ a:focus {
   padding: 75px 0;
   background-color: #0a0f43;
   text-align: center;
-  color: #fff;
+  color: #ff8a1d;
 }
 
 .info_section h4 {
@@ -842,7 +842,7 @@ a:focus {
   color: #ffffff;
   font-size: larger;
   text-align: center;
-  border-top: 0.8px solid #ffffff;
+  border-bottom: 7.8px solid #ffff
 }
 
 .footer_section a {
