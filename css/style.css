@@ -753,12 +753,13 @@ a:focus {
 }
 
 .info_section .social-box .box {
-  background-color: #cad6dc;
-  padding: 5px 15px;
+  /* background-color: #cad6dc; */
+  padding: 5px 25px;
+
 }
 
 .info_section a {
-  margin: 0 5px;
+  margin: 0 20px;
   color: #0355cc;
 }
 
@@ -766,6 +767,7 @@ a:focus {
   font-size: 18px;
   border: 1px solid #fff;
   padding: 5px;
+  color: #fff;
   border-radius: 27%;
   font-size: 25px;
 }
@@ -798,7 +800,7 @@ a:focus {
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  /* background-color: #ffffff; */
+   background-color: #ffffff; 
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -826,6 +828,7 @@ a:focus {
 .info_items {
   position: relative;
 }
+
 
 .info_items::before {
   content: "";
