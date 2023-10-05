@@ -764,8 +764,14 @@ a:focus {
 
 .info_section a i {
   font-size: 18px;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 27%;
+  font-size: 25px;
 }
-
+.info_section a i:hover{
+  color: #ff8a1d;
+}
 .info_section a:hover {
   color: #ff8a1d;
 }
@@ -792,7 +798,7 @@ a:focus {
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -803,6 +809,7 @@ a:focus {
 
 .info_items .item .img-box i {
   font-size: 24px;
+  border: none;
 }
 
 .info_items .item p {
@@ -825,10 +832,11 @@ a:focus {
   position: absolute;
   top: 65px;
   width: 75%;
-  height: 1px;
+  height: 5px;
   background-color: #fff;
   left: 50%;
   -webkit-transform: translateX(-50%);
+  /* translateX  change position horizontal */
           transform: translateX(-50%);
 }
 
